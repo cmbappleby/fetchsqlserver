@@ -1,1 +1,5 @@
 # fetchsqlserver
+
+Fetches data from a SQL Server Database to use in creating a data package for the NPS DataStore. Data tables can be fetched using queries, or the raw data tables can be fetched. Nearly everything you need to create a data package and the associated metadata are fetched, including data table column names, descriptions and data types to create metadata attribute tables, foreign key reference table and schema names to create categorical variable tables, as well as table descriptions. There are functions to convert data types to EML classes, add units to numeric classes, create categorical variable tables, add missing value codes and explanations to attribute tables, and to simplify the creation of EML metadata and adding NPS-specific metadata.
+
+I am still working on getting a read-only copy of the R package to share.
