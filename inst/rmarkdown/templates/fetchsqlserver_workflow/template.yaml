@@ -1,0 +1,6 @@
+name: fetchsqlserver_workflow
+description: >
+  An R Markdown template that walks through creating the NCCN
+  Water Quality Data Package using the `fetchsqlserver` and `fetchsqlserver`
+  functions.
+create_dir: FALSE
